@@ -6,12 +6,12 @@
 import Hero from "./components/Hero";
 import Metrics from "./components/Metrics";
 import Architecture from "./components/Architecture";
+import SecuritySidecar from "./components/SecuritySidecar";
 import Process from "./components/Process";
 import Projects from "./components/Projects";
 import TechStack from "./components/TechStack";
 import GitHubStats from "./components/GitHubStats";
 import Connect from "./components/Connect";
-import { ScrollArea } from "@/components/ui/scroll-area";
 
 export default function App() {
   return (
@@ -37,6 +37,7 @@ export default function App() {
         <Hero />
         <Metrics />
         <Architecture />
+        <SecuritySidecar />
         <Process />
         <div id="projects">
           <Projects />
